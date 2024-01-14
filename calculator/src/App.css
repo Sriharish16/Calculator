@@ -1,0 +1,92 @@
+.button-styles {
+  border: 10px;
+}
+.calc-wrapper {
+  height: 550px;
+  width: 300px;
+  padding: 60px;
+  border: 4px solid #000 !important;
+}
+.button-wrapper {
+  bottom: 15px;
+  position: absolute;
+}
+
+.MuiButton-root:hover {
+  text-decoration: none;
+  background-color: #000000 !important;
+  color: white !important;
+}
+.MuiOutlinedInput-inputMarginDense {
+  padding-top: 10.5px;
+  padding-bottom: 10.5px;
+  width: 225px !important;
+  padding: 20px 30px 20px 30px !important;
+}
+
+.MuiButton-text {
+  padding: 10px 5px 10px !important;
+  border: 1px solid #000 !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 100px !important;
+  width: 10px !important;
+}
+
+.MuiButton-root {
+  color: rgba(0, 0, 0, 0.87);
+  padding: 6px 16px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  padding: 17px !important;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+  font-weight: 800 !important;
+  line-height: 1.75 !important;
+  /* border-radius: 4px !important; */
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+}
+
+.MuiGrid-spacing-xs-1 {
+  width: 295px !important;
+  margin: -20px;
+  height: 410px;
+}
+
+.MuiInputBase-input {
+  font: inherit;
+  color: currentColor;
+  width: 100%;
+  border: 0;
+  height: 1.1876em;
+  font-family: cursive !important;
+  margin: 0;
+  display: block;
+  padding: 6px 0 7px;
+  min-width: 0;
+  background: none;
+  box-sizing: content-box;
+  animation-name: mui-auto-fill-cancel;
+  letter-spacing: inherit;
+  animation-duration: 10ms;
+  border: 4px solid #000 !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.title{
+  padding: 2px !important;
+  margin: 0 !important;
+  font-family: monospace;
+}
+
+.button-text{
+padding: 4px;
+}
+
+.button-text:hover{
+  color:#ffffff !important;
+
+}
